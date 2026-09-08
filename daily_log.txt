@@ -1,2 +1,3 @@
 2026-09-08 05:58:46 — docs: improve readme clarity
 2026-09-08 05:58:46 — fix: correct typo in comments
+2026-09-08 11:12:39 — refactor: clean up unused code
