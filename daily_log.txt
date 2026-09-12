@@ -26,3 +26,4 @@
 2026-09-11 09:01:51 — style: format code consistently
 2026-09-11 13:27:48 — chore: update dependencies
 2026-09-12 08:45:30 — docs: improve readme clarity
+2026-09-12 08:45:30 — refactor: clean up unused code
