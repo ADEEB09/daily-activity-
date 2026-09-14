@@ -48,7 +48,7 @@ jobs:
           event = os.environ.get("GITHUB_EVENT_NAME", "schedule")
           is_manual = event == "workflow_dispatch"
 
-          num_commits = random.randint(2, 3) if is_manual else (random.randint(1, 2) if random.random() < 0.85 else 0)
+          num_commits = random.randint(2, 3)
 
           print(f"Event: {event} | Commits planned: {num_commits}")
 
