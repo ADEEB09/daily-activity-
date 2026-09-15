@@ -49,3 +49,4 @@
 2026-09-15 05:01:58 — fix: resolve minor bug in logic
 2026-09-15 09:32:43 — perf: optimize loop performance
 2026-09-15 09:32:43 — test: update test descriptions
+2026-09-15 09:32:43 — docs: improve readme clarity
