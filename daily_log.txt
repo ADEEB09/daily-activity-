@@ -78,3 +78,4 @@
 2026-09-18 16:36:23 — chore: update dependencies
 2026-09-18 16:36:23 — fix: correct typo in comments
 2026-09-19 08:54:43 — docs: improve readme clarity
+2026-09-19 08:54:43 — style: format code consistently
