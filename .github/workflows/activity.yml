@@ -22,7 +22,7 @@ jobs:
       - name: Set up Git identity
         run: |
           git config user.name "iakashmall"
-          git config user.email "akash.mall.mac@gmail.com"
+          git config user.email "YOUR_GITHUB_EMAIL@gmail.com"
 
       - name: Make randomized commits
         run: |
@@ -30,7 +30,7 @@ jobs:
           import subprocess
           import random
           import os
-          from datetime import datetime
+          from datetime import datetime, date
 
           messages = [
             "fix: resolve minor bug in logic",
@@ -48,7 +48,27 @@ jobs:
           event = os.environ.get("GITHUB_EVENT_NAME", "schedule")
           is_manual = event == "workflow_dispatch"
 
-          num_commits = random.randint(2, 3)
+          # Skip weekends randomly (30% chance) — real devs rest too
+          today = date.today().weekday()  # 5=Sat, 6=Sun
+          is_weekend = today in [5, 6]
+
+          if is_weekend and random.random() < 0.30 and not is_manual:
+            print("⏭️ Weekend skip — taking a rest like a human!")
+            exit(0)
+
+          # Vary commits naturally:
+          # Manual = always 1-2 commits
+          # Scheduled = 60% chance of 1 commit, 30% chance of 2, 10% skip
+          if is_manual:
+            num_commits = random.randint(1, 2)
+          else:
+            roll = random.random()
+            if roll < 0.10:
+              num_commits = 0   # 10% skip
+            elif roll < 0.70:
+              num_commits = 1   # 60% chance of 1 commit
+            else:
+              num_commits = 2   # 30% chance of 2 commits
 
           print(f"Event: {event} | Commits planned: {num_commits}")
 
@@ -60,7 +80,7 @@ jobs:
               f.write(f"{timestamp} — {msg}\n")
 
             subprocess.run(["git", "add", "daily_log.txt"])
-            subprocess.run(["git", "commit", "-m", f"{msg}"])
+            subprocess.run(["git", "commit", "-m", msg])
 
           if num_commits > 0:
             subprocess.run(["git", "push"])
