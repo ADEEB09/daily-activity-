@@ -116,3 +116,4 @@
 2026-09-27 17:07:14 — fix: resolve minor bug in logic
 2026-09-28 11:08:47 — refactor: clean up unused code
 2026-09-28 17:34:42 — docs: improve readme clarity
+2026-09-28 19:46:11 — docs: improve readme clarity
