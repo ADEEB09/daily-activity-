@@ -138,3 +138,4 @@
 2026-10-03 14:15:21 — refactor: clean up unused code
 2026-10-03 16:33:47 — perf: optimize loop performance
 2026-10-05 04:23:25 — feat: add minor utility function
+2026-10-05 11:45:25 — docs: improve readme clarity
