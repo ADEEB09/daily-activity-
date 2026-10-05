@@ -140,3 +140,4 @@
 2026-10-05 04:23:25 — feat: add minor utility function
 2026-10-05 11:45:25 — docs: improve readme clarity
 2026-10-05 11:45:25 — fix: correct typo in comments
+2026-10-05 18:16:27 — docs: improve readme clarity
