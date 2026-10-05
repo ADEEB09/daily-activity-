@@ -22,7 +22,7 @@ jobs:
       - name: Set up Git identity
         run: |
           git config user.name "iakashmall"
-          git config user.email "YOUR_GITHUB_EMAIL@gmail.com"
+          git config user.email "akash.mall.mac@gmail.com"
 
       - name: Make randomized commits
         run: |
