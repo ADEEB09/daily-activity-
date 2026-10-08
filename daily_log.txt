@@ -150,3 +150,4 @@
 2026-10-07 16:17:58 — perf: optimize loop performance
 2026-10-07 16:17:58 — chore: sync daily log
 2026-10-07 19:01:12 — perf: optimize loop performance
+2026-10-08 11:32:40 — docs: improve readme clarity
