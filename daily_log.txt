@@ -165,3 +165,4 @@
 2026-10-11 10:57:47 — fix: resolve minor bug in logic
 2026-10-11 17:44:12 — fix: correct typo in comments
 2026-10-12 12:19:09 — fix: resolve minor bug in logic
+2026-10-12 18:52:31 — docs: improve readme clarity
