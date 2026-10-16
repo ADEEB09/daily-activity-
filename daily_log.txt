@@ -184,3 +184,4 @@
 2026-10-16 09:11:52 — fix: resolve minor bug in logic
 2026-10-16 13:53:15 — style: format code consistently
 2026-10-16 16:50:16 — docs: improve readme clarity
+2026-10-16 16:50:16 — fix: correct typo in comments
