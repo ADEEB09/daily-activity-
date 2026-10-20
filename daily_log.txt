@@ -196,3 +196,4 @@
 2026-10-19 18:46:51 — style: format code consistently
 2026-10-20 09:34:02 — chore: update dependencies
 2026-10-20 14:14:15 — test: update test descriptions
+2026-10-20 14:14:15 — docs: improve readme clarity
