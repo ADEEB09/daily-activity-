@@ -199,3 +199,4 @@
 2026-10-20 14:14:15 — docs: improve readme clarity
 2026-10-20 17:24:21 — perf: optimize loop performance
 2026-10-21 09:29:56 — docs: improve readme clarity
+2026-10-21 14:26:01 — feat: add minor utility function
