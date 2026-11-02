@@ -233,3 +233,4 @@
 2026-11-01 11:26:08 — fix: correct typo in comments
 2026-11-01 18:00:26 — perf: optimize loop performance
 2026-11-02 12:45:54 — refactor: clean up unused code
+2026-11-02 19:23:42 — feat: add minor utility function
