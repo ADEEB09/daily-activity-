@@ -238,3 +238,4 @@
 2026-11-03 12:12:41 — chore: update dependencies
 2026-11-03 12:12:41 — fix: resolve minor bug in logic
 2026-11-03 19:41:13 — perf: optimize loop performance
+2026-11-03 19:41:13 — docs: improve readme clarity
