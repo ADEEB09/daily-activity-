@@ -274,3 +274,4 @@
 2026-11-12 20:14:06 — refactor: clean up unused code
 2026-11-13 12:30:21 — chore: sync daily log
 2026-11-13 17:05:50 — chore: sync daily log
+2026-11-13 19:55:21 — feat: add minor utility function
