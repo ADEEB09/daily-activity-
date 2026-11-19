@@ -293,3 +293,4 @@
 2026-11-18 13:19:15 — feat: add minor utility function
 2026-11-18 17:55:28 — feat: add minor utility function
 2026-11-19 13:44:17 — docs: improve readme clarity
+2026-11-19 18:08:11 — fix: resolve minor bug in logic
